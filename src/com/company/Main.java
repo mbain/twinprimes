@@ -1,7 +1,7 @@
 /*
 * Twin Primes Calculator
 * Copyright 2017 Miles Bainbridge
-* Provided under the MIT License - license details in the accompanying readme.
+* Provided under the MIT License - license details in the accompanying LICENSE file.
 *
 * */
 
