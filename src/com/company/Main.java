@@ -49,7 +49,7 @@ public class Main {
                     //not a prime
                     break;
                 }
-                else if((j == srt) && ((i % j) != 0)){
+                else if(j == srt){
                     //This is a prime number.
                     knownPrimes.add(i);
                 }
