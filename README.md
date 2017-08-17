@@ -9,6 +9,6 @@ Since there are far fewer prime numbers than there are total numbers, the subseq
 
 The program saves the twin prime pairs to a CSV output file.  The full path of the file is displayed when it attempts to save.
 
-There is additional code in the source that is commented-out.  This code allows you to display the twin prime pairs to STDOUT (console/display), and also does some math to show a unique property of twin primes - that when you multiply the two primes together, that the product mod 9 equals 8, with the exception of 3 and 5.  Un-commenting this code will cause this to display.
+There is additional code in the source that is commented-out.  This code allows you to display the twin prime pairs to STDOUT (console/display), and also does some math to show an interesting property of twin primes - that when you multiply the two primes together, that the product mod 9 equals 8, with the exception of 3 and 5.  Un-commenting this code will cause this to display.
 
 Enjoy, and please feel free to submit pull requests for any desired improvements.
