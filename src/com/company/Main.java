@@ -171,6 +171,7 @@ public class Main {
         //Display all twin prime pairs
         Set keys = twinPrimes.keySet();
         ArrayList<Integer> keyList = new ArrayList<Integer>(keys);
+        Collections.sort(keyList);
 
         for(int i = 0; i < keys.size(); i++){
             //System.out.println(keyList.get(i));
@@ -182,7 +183,7 @@ public class Main {
             long t1Val = twin1.intValue();
             long t2Val = twin2.intValue();
 
-            //This displays a unique property of twin primes.
+            //This displays an interesting property of twin primes.
             System.out.println(t1Val + " * " + t2Val + " % 9 = " + ((t1Val * t2Val) % 9) );
             if((t1Val * t2Val) % 9 != 8 )
                 System.out.println("Exception found: " + t1Val + ", " + t2Val);
